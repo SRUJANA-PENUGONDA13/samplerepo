@@ -1,6 +1,6 @@
+from __future__ import print_function
 from flask import Flask
 from datetime import datetime
-from __future__ import print_function
 import pickle
 import os.path
 import pandas as pd
