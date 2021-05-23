@@ -6,7 +6,9 @@ app = Flask(__name__)
   
 @app.route("/")
 def home_page():
-        return "Success"
+        msg = "Please go through the below url for sending mail to srujana penugonda with name, mail and message details"
+        url = "https://sample-srujana-deploy.herokuapp.com/mail/{{name}}/{{mail}}/{{message}}"
+        return {"Message" : msg , "URL" : url , "Status" : "Success"}
 
 @app.route("/mail/<name>/<email>/<message>")
 def mail(name,email,message):
@@ -14,8 +16,6 @@ def mail(name,email,message):
         THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
         mail_path = os.path.join(THIS_FOLDER, 'mail')
         os.chdir(mail_path)
-        print(os.getcwd())
-        print(mail_path)
         send_status(name,email,message)
         return {"status" : "Success"}
     except Exception as e:
