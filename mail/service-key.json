@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "liquid-fuze-290107",
+  "private_key_id": "b851b365d3270e486bd338fcb038890924b4749c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9X1K6WW3yL1eV\n79jMNuZRU/W12xuXrbMEoWArrEcKYjs1s8/ofKBV19GaFV/VDa1iNQszbhgJTfxu\n9pjHq9jh2zMXzSCcjGqJKlb7YOXhLOro0suM3GIk3HhrhW6oH6m7NjfCjioekK+u\nEIEMVG/dVvjJW7dJYD+K1WB/UE5q05ynq5VRy1F/JLKNt0CRj/XJX9Jy53T8310w\nApfZwqRNzJBXjoeCmaivfyd39/5x47klcs3IU2Rp8dtv+uFr3s4c9r75Z6Y4QI0k\nLTnnhfoc8idl5/mD4kvZp2eS9wG/qSptNNe/ZuzYuT5kjCk84YVqLdSOMDzeirkP\nroSQaP5lAgMBAAECggEAJa8d5dJdBCgynDYt5Ll6DK4SA73V2FGrAZ1hZ19xhZn1\noWKmWWPPfjWj0q81Mk719UiL8ZCTfOqFdMlirr0+O/ekS7S4rB5vJtuDkqN+K1iG\naI1mDyJd72rmFbNoSVF/s67+2pryu8FcDF3haEQ3PIsNl/hF2XarPmPmv38KE8yv\nt2QpiRB21sZ8/eTj0iF6Llc4jsUZS4UUX7J+11clM13Ysy1JpYIdZ1lcr0lZOvP2\njL8fmKjGvBZgCcI/tojcDSipnbauNnyVwUoyFPc9zuze6ahkxG0X19GFjKAWD0Wf\nGEL+jODLGYybAkHpTedJnTpQ85v1ZV+OOlo9MVaxwwKBgQDljq8B1wb+m6lX6nD6\norUQvN03RuUFls/xttHpbe8H0Y0L4GjebOkHgzsQqM+PNKVIPs0IDcs/vZMzXjmM\nHzpwJ1GVElhqhmDt0mpqcEOsi0CMM/3xJ+d67rT6aVGxzgKaIyk4oPL7DTdkvktp\nffMz6BGuuC69P0tLf+xoHj8AkwKBgQDTL6RBAs9llMU3FLx1g88Kx9Z5zTwJfTI8\nLh6A5z0KkXJ8CLYCsrPNLuuqrSij61Xecyw6jIW9ntA2J+lUQ2UjZObb0/5I0F9E\n6F7RzHH/Zo3aoKsfAXDVg0kVhfOU9Go0gNmAPnjQJx/jJyIHA88+i7NNZqYNwPjy\nHM7Fdyl4JwKBgEQReBFammda7u7zxIZ9QqVw60Od0QFEQ+rPpBTMlUlDOMihxVbX\nAo5IunXpKIq1OKFghdlyhacj5ocf1H6ZL/HbptRGOVN0/z7l2sou+dIrBHvOWuls\nRLZuG9n46tGHXbwo2utAxmvs8lT8HE5um3Pzx3KAiNNy9jev+gCxn0rjAoGAIK54\nvs7OhavWMUX2PEFfow119Xd7WQSU55dDhTND0QTdMLCwag55oMEoG0ucxHFA4qH0\nMENa1xNiqV7XzwB3AFk3GMHf0ijc9W74bYM0CRA316ORl8TDT2d3weru3RhN7z4Z\naq1ASQYk+yQtMeS3B7ja0JmYDPzWCbHHletw8XUCgYEAk3WYrTKgXDj+z7+FTSRg\no/YGdAtnuoAeS9jINrcScz0OYejrN69I5ptiaFYGjYfNAGY7jTom6bhM1nCxJNDB\nlyIviCexUM1AeBicN+6GZOl5PCbT3ODvRKiLawgB2djQKsPnFswRTzG5AL52VVxg\nVF3A0ILWR7z/YbrCiWz9CNE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "myaccount@liquid-fuze-290107.iam.gserviceaccount.com",
+  "client_id": "104985895858770831871",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myaccount%40liquid-fuze-290107.iam.gserviceaccount.com"
+}
