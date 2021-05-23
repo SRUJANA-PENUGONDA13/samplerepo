@@ -1,6 +1,6 @@
 from flask import Flask
 import os
-from mail import mail
+from Mail.mail import *
   
 app = Flask(__name__)
   
@@ -10,9 +10,11 @@ def home_page():
 
 @app.route("/mail/<name>/<email>/<message>")
 def mail(name,email,message):
-    os.chdir('.\mail')
     try:
-        mail.send_status(name,email,message)
+        print(os.getcwd())
+        os.chdir('.\Mail')
+        print(os.getcwd())
+        send_status(name,email,message)
         return {"status" : "Success"}
     except Exception as e:
         error = str(e)
