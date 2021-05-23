@@ -1,6 +1,7 @@
 from flask import Flask
 import os
-from Mail.mail import *
+os.chdir('.\Mail')
+from mail.mail import *
   
 app = Flask(__name__)
   
@@ -12,7 +13,6 @@ def home_page():
 def mail(name,email,message):
     try:
         print(os.getcwd())
-        os.chdir('.\Mail')
         print(os.getcwd())
         send_status(name,email,message)
         return {"status" : "Success"}
